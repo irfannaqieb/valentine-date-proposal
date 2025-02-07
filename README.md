@@ -1,17 +1,8 @@
-# Valentine's Day Proposal Web App 💝
+# Valentine's Day Proposal with Nuxt 💝
 
-A cute and interactive web application to ask someone to be your Valentine! Built with Nuxt 3, Vue.js, and TailwindCSS.
+A simple and interactive app to ask someone to be your Valentine! It's never too late fellas. Ask your partner out now. Just change here and there and voila!
 
-## Features
-
-- Interactive "Yes/No" buttons
-- Dynamic GIF changes on "No" clicks
-- Growing "Yes" button to encourage positive response
-- Multi-step flow:
-  1. Initial proposal page
-  2. Cuisine selection
-  3. Date selection
-  4. Final confirmation
+Built with Nuxt 3, Vue.js, and TailwindCSS.
 
 ## Tech Stack
 
@@ -68,10 +59,14 @@ pnpm dev
 
 ## Customization
 
+Here's what you can change
+
 1. **Change Initial GIF**: Update the `initialGif` URL in `pages/index.vue`
 2. **Modify Sad GIFs**: Edit the `sadGifs` array in `pages/index.vue`
 3. **Update Cuisine Options**: Modify the `cuisines` array in `pages/cuisine.vue`
 4. **Change Default Date**: Update the default date in `pages/date.vue`
+
+Just change anything that you feel like!
 
 ## Building for Production
 
