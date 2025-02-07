@@ -1,75 +1,86 @@
-# Nuxt Minimal Starter
+# Valentine's Day Proposal Web App 💝
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A cute and interactive web application to ask someone to be your Valentine! Built with Nuxt 3, Vue.js, and TailwindCSS.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Interactive "Yes/No" buttons
+- Dynamic GIF changes on "No" clicks
+- Growing "Yes" button to encourage positive response
+- Multi-step flow:
+  1. Initial proposal page
+  2. Cuisine selection
+  3. Date selection
+  4. Final confirmation
+
+## Tech Stack
+
+- **Framework**: Nuxt 3
+- **UI Library**: Vue.js
+- **Styling**: TailwindCSS
+- **State Management**: Pinia
+- **Components**: Radix Vue (Calendar)
+
+## Getting Started
+
+1. Clone the repository:
 
 ```bash
-# npm
+git clone [your-repo-url]
+cd [your-repo-name]
+```
+
+2. Install dependencies:
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# or
 yarn install
-
-# bun
-bun install
+# or
+pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+3. Start the development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# or
 yarn dev
-
-# bun
-bun run dev
+# or
+pnpm dev
 ```
 
-## Production
+4. Open your browser and visit `http://localhost:3000`
 
-Build the application for production:
+## Project Structure
+
+```
+├── pages/              # Application pages
+│   ├── index.vue      # Initial proposal page
+│   ├── cuisine.vue    # Food preference selection
+│   ├── date.vue       # Date selection
+│   └── summary.vue    # Final confirmation
+├── stores/            # Pinia stores
+│   └── dateStore.js   # Shared state management
+├── components/        # Reusable components
+└── assets/           # Static assets
+```
+
+## Customization
+
+1. **Change Initial GIF**: Update the `initialGif` URL in `pages/index.vue`
+2. **Modify Sad GIFs**: Edit the `sadGifs` array in `pages/index.vue`
+3. **Update Cuisine Options**: Modify the `cuisines` array in `pages/cuisine.vue`
+4. **Change Default Date**: Update the default date in `pages/date.vue`
+
+## Building for Production
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
+# or
 yarn build
-
-# bun
-bun run build
+# or
+pnpm build
 ```
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Made with 💖 by Irfan for Valentine's Day
