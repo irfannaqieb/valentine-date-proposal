@@ -1,7 +1,12 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-pink-200 to-pink-50 p-4">
+  <div
+    class="min-h-screen bg-gradient-to-br from-red-50 via-pink-100 to-purple-100 p-4 relative"
+  >
     <div
-      class="container mx-auto min-h-screen flex flex-col items-center justify-center"
+      class="absolute inset-0 bg-gradient-to-t from-white/0 via-pink-100/30 to-rose-100/30 pointer-events-none"
+    ></div>
+    <div
+      class="container mx-auto min-h-screen flex flex-col items-center justify-center relative"
     >
       <h1 class="text-3xl font-bold text-pink-500 mb-8">Hello awak busuk!</h1>
 
@@ -18,7 +23,7 @@
         </div>
 
         <!-- the main question -->
-        <h1 class="text-2xl md:text-3xl font-bold text-pink-500">
+        <h1 class="text-xl md:text-2xl font-bold text-pink-500 text-center">
           Will you be my Valentine?
         </h1>
 

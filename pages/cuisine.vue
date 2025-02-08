@@ -1,9 +1,14 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-pink-200 to-pink-50 p-4">
+  <div
+    class="min-h-screen bg-gradient-to-br from-red-50 via-pink-100 to-purple-100 p-4 relative"
+  >
     <div
-      class="container max-w-md mx-auto min-h-screen flex flex-col items-center justify-center gap-6"
+      class="absolute inset-0 bg-gradient-to-t from-white/0 via-pink-100/30 to-rose-100/30 pointer-events-none"
+    ></div>
+    <div
+      class="container max-w-md mx-auto min-h-screen flex flex-col items-center justify-center gap-6 relative"
     >
-      <h1 class="text-3xl font-bold text-pink-500">
+      <h1 class="text-3xl font-bold text-pink-500 text-center">
         OK! Awak rasa nak makan apa?
       </h1>
       <p class="text-pink-500 text-sm italic">(later can change)</p>
