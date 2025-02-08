@@ -10,7 +10,7 @@ Built with Nuxt 3, Vue.js, and TailwindCSS.
 - **UI Library**: Vue.js
 - **Styling**: TailwindCSS
 - **State Management**: Pinia
-- **Components**: Radix Vue (Calendar)
+- **Components**: ShadCN (Calendar)
 
 ## Getting Started
 
