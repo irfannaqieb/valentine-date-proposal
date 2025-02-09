@@ -1,8 +1,8 @@
 # Valentine's Day Proposal with Nuxt 💝
 
-A simple and interactive app to ask someone to be your Valentine! It's never too late fellas. Ask your partner out now. Just change here and there and voila!
+A simple and interactive app to ask someone to be your Valentine! It's never too late fellas. Ask your partner out now. Just change here and there and voila! 
 
-Built with Nuxt 3, Vue.js, and TailwindCSS.
+Built with Nuxt 3, Vue.js, and TailwindCSS. Something to practice my Vue/Nuxt concepts
 
 ## Tech Stack
 
@@ -10,7 +10,7 @@ Built with Nuxt 3, Vue.js, and TailwindCSS.
 - **UI Library**: Vue.js
 - **Styling**: TailwindCSS
 - **State Management**: Pinia
-- **Components**: ShadCN (Calendar)
+- **Components**: ShadCN 
 
 ## Getting Started
 
