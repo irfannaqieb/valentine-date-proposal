@@ -12,7 +12,7 @@
         <!-- Title and subtitle -->
         <h1 class="text-3xl font-bold text-pink-600">Pick a date!</h1>
         <p class="text-pink-500 text-sm italic">
-          (optional, if u cannot on the 14th jerps)
+          (optional, if u cannot on the 14th jer)
         </p>
       </div>
 

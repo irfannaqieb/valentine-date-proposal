@@ -81,8 +81,9 @@ const currentGif = computed(() => {
   return sadGifs[currentGifIndex.value];
 });
 
-const handleYesClick = () => {
-  router.push("/cuisine");
+const handleYesClick = async () => {
+  // Navigate and end transition
+  await router.push("/cuisine");
 };
 
 const handleNoClick = () => {
